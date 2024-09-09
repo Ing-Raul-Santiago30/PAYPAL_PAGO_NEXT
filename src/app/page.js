@@ -15,7 +15,7 @@ function HomePage() {
       
        style={{
         color: 'blue',
-        layout: 'horizontal'
+        layout: 'vertical'
        }}
        //crear un orden de compra
        createOrder={async ()=>{
@@ -45,6 +45,5 @@ function HomePage() {
 }
 
 
-       //onCancel={()=>{}}
-       //onApprove={()=>{}}
+       
 export default HomePage
